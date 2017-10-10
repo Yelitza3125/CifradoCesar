@@ -10,7 +10,15 @@ Si lo ingresado es un campo vacío o un conjunto de números, pide el ingreso de
 
 Proceso:
 Creación de la variable out
+
+
 Recorriendo la frase ingresada con for, letra por letra
+
+
 Se aplica la función charCodeAt, para obtener el número de la letra en ASCII
+
+
 Se aplica la fórmula (x-65 + 33) % 26 + 65, para obtener el nuevo código ASCII de la letra.
+
+
 Se aplica la función String.fromCharCode, para que con ese numero número obtenido, tengamos la letra cifrada
